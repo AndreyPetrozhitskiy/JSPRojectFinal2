@@ -1,0 +1,61 @@
+
+
+.Carousel__slider{
+    margin-top: 15px;
+    width: 100%;
+    height: 600px;
+    border-radius:10px;
+}
+.carousel__img{
+    width: 100%;
+    height: 600px;
+    border-radius:10px;
+    object-fit:cover;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.carousel__img:hover{
+    transform: scale(1.05);
+    transition: 0.3s;
+}
+
+
+
+.Carousel__text{
+    width: 400px;
+    height: 80px;
+    color:black;
+    background-color:white;
+    border-radius:10px;
+    border:2px solid rgb(132, 39, 39);
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 5px 4px 10px 1px rgba(255, 255, 255, 0.5);
+    -moz-box-shadow: 5px 4px 10px 1px rgba(255, 255, 255, 0.5);
+    box-shadow: 5px 4px 10px 1px rgba(255, 255, 255, 0.5);
+}
+.Carousel_text-h1{
+    width: 400px;
+    margin: 0 auto;
+    color: #dbdbdb !important;
+    font-size: 14px;
+    display: block;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-color: #293131;
+    border-radius: 25px;
+    
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.37);
+}
+.container_catalog-filtres_download{
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 70%;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #6c757d;
+    color:white;
+    border: none;
+}

@@ -1,0 +1,148 @@
+.container_catalog{
+    width: 100%;
+    height: fit-content;
+    border:5px solid rgb(32, 29, 29);
+    background-color: rgb(74, 73, 73);
+    border-radius: 10px;
+    margin-top: 15px;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    min-height: 500px;
+    height: auto;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+}
+.container_catalog-filtres{
+    width: 20%;
+    height: 100%;
+    background-color:rgb(251, 251, 251);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.container_catalog-card{
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.container_catalog-filtres-h1{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    width: 100%;
+    height: 10px;
+    display: block;
+    text-align: center;
+}
+.container_catalog-filtres-one{
+    width: 100%;
+    height: 100%;
+    padding: 15px;
+}
+.filtr{
+    margin-top: 20px;
+    height: 50px;
+}
+.card{
+    position: relative;
+    width: calc((110% - 0.65em*3)/4);
+    height: 380px;
+    margin: 30px;
+    background-color:rgb(255, 255, 255);
+    border-radius:15px;
+    border:4px solid #00000084;
+    transition: 0.5s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+.card:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    margin: 30px;
+    transition: 0.5s;
+    background-color:rgb(255, 255, 255);
+    border-radius:15px;
+    border:4px solid #00000084;
+}
+.card_button{
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    bottom:10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.card_button2{
+    position: absolute;
+    width: 100%;
+    height: 40px;
+    bottom:-40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.buttoncrd{
+    width: 250px;
+    height: 40px;
+    
+    font-size: 25px;
+    color:azure;
+    background-color:rgb(192, 29, 29);
+    border:none;
+    transition: 0.4s;
+}
+.buttoncrd:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    transform: scale(1.05);
+    color:black;
+    background-color:azure;
+    border: 1px solid black;
+}
+
+
+.catalog-h1{
+    color: rgb(254, 254, 254);
+    font-size: 46px;
+    width: 100%;
+    height: 65px;
+    display: block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.card_img{
+    width: 210;
+    height: 130px;
+    margin-top: 15px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius:15px;
+    border:2px solid #00000084;
+    object-fit: contain;
+}
+.card_price{
+    color: #ad120e;
+    font-size: 30px;
+    font-weight: 600;
+    display: block;
+    margin-left: 10px;
+    margin-top: 15px;
+}
+.card_name{
+    display: block;
+    font-size: 2em;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
